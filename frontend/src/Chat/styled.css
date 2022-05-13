@@ -1,0 +1,72 @@
+#conteiner{
+    width: 100%;
+    height: 100%;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    background-color: white;
+    border-radius: 3px;
+}
+main{
+    width: 500px;
+    height: 600px;
+    margin: 3rem auto;
+    padding: 5px;
+    background-color: #1985c7;
+    border-radius: 5px;
+    
+    display: grid;
+    grid-template: 10% 80% 10% / 1fr;
+    justify-content: space-evenly;
+}
+h2{
+    color: white;
+    text-align: center;
+    margin: 0px;
+    padding: 0rem;
+}
+h2 span{
+    color: black;
+}
+.sectionMsg{
+    margin: 10px ;
+    border-radius: 8px;
+}
+.Msg{
+    padding: 1rem;
+    font-size: 13px;
+}
+.Msg div{
+    padding: 3px;
+}
+.Msg p{
+    display: inline;
+    padding: 0.3rem;
+    border-radius: 5px;
+    color: white;
+}
+.Msg .info{
+    padding: 0.5rem 0;
+    color: #5e5e5e65;
+    font-style: italic;
+}
+.Msg .info span{
+    font-size: 0.2rem;
+        margin: 0.2rem;
+}
+.inputArea{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.inputArea p {
+    font-size: 0.2rem;
+    margin: 0.2rem;
+}
+.inputArea input{
+    width: 70%;
+    border-radius: 5px;
+}
+.inputArea button{
+    width: 20%; 
+    border-radius: 5px;
+}

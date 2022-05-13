@@ -1,0 +1,38 @@
+.userArea{
+    width: 500px;
+    height: 500px;
+    background-color: #1985C7;
+    margin: 3rem auto;
+    border-radius: 8px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+.userArea h1{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.userArea button{
+    border-radius: 5px;
+    width: 30%;
+    padding: 0.5rem;
+}
+.userArea button:hover{
+    background-color: #050712;
+    color: whitesmoke;
+}
+.userArea input{
+    border-radius: 5px;
+    width: 80%;
+    height: 1.8rem;
+    margin-bottom: 1.5rem;
+}
+.userArea input::placeholder{
+    padding-left: 10px;
+        font-style: italic;
+        color: #5e5e5e99;
+}
